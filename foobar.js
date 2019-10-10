@@ -18,7 +18,7 @@ function foobar(){
 
 function dummy(){
     console.log('delegate to foobar()')
-    console.info('beep')
-    console.warn('this is redunctant')
+    console.trace('beep')
+    console.error('this is redunctant')
     return foobar();
 }
