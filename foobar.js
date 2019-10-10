@@ -3,3 +3,7 @@ function foo(){
     return a;
 }
 
+function bar(){
+    let b = 1*1;
+    return b;
+}
