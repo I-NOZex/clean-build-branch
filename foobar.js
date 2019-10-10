@@ -7,3 +7,7 @@ function bar(){
     let b = 1*1;
     return b;
 }
+function foobar(){
+    let c = foo() / bar();
+    return c;
+}
