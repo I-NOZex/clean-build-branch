@@ -10,6 +10,7 @@ function bar(){
     return b;
 }
 
+
 function foobar(){
     let c = foo() / bar();
     console.log('foo() / bar()')
