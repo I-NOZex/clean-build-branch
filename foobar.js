@@ -9,3 +9,9 @@ function bar(){
     console.log('1 times 1')
     return b;
 }
+
+function foobar(){
+    let c = foo() / bar();
+    console.log('foo() / bar()')
+    return c;
+}
